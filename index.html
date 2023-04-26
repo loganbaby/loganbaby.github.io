@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/img/ico.png" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="./index.css">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+        <title>Mikhail</title>
+    </head>
+    <body id="intro">    
+        <header class="profile container">
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <img src="./img/iamiwas.jpg" style="width: 400px;" alt="">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__name">Mikhail<i class="ri-star-s-fill"></i> </h2>
+                    <h3 class="profile__profession">Backend developer</h3>
+                </div>
+
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">2</h3>
+                        <p class="profile__info-description">
+                            Years <br> in developing
+                        </p>
+                    </div>
+
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">++60</h3>
+                        <p class="profile__info-description">
+                            Completed <br> projects
+                        </p>
+                    </div>
+
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">A lot of</h3>
+                        <p class="profile__info-description"> satisfied <br> clients</p>
+                    </div>
+                </div>
+
+                <div class="profile__buttons">
+                    <a href="https://t.me/logbaby" target="_blank" class="button">
+                        Telegram <i class="ri-telegram-line"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="filters container">
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        Buy
+                    </button>
+
+                    <button class="filters__button" data-target="#skills">
+                        Skills
+                    </button>
+
+                    <button class="filters__button" data-target="#experience">
+                      Experience
+                  </button>
+                </ul>
+
+              <div class="filters__sections">
+                  <div class="projects__content grid filters__active" data-content id="projects">
+                      <article class="projects__card">
+                          <img src="./img/f-img.jpg" alt="" class="projects__img">
+                          <div class="projects__modal">
+                              <div>
+                                  <span class="projects__subtitle">Telegram Bots</span>
+                                  <h3 class="projects__title">Developing of Telegram Bots. Fast & high quality. From 100$</h3>
+                                  <a href="#" class="projects__button button button__small">
+                                      <i class="ri-link"></i>
+                                  </a>
+                              </div>
+                          </div>
+                      </article>
+
+                      <article class="projects__card">
+                          <img src="./img/2-f.png" alt="" class="projects__img">
+
+                          <div class="projects__modal">
+                              <div>
+                                  <span class="projects__subtitle">Web pages / sites</span>
+                                  <h3 class="projects__title">Writing web sites / pages, refactor of your projects. From 100$</h3>
+                                  <a href="#" class="projects__button button button__small">
+                                      <i class="ri-link"></i>
+                                  </a>
+                              </div>
+                          </div>
+                      </article>
+                  </div>
+
+                  <div class="skills__content grid" data-content id="skills">
+                      <div class="skills__area">
+                          <h3 class="skills__title">Frontend skills</h3>
+  
+                          <div class="skills__box">
+                              <div class="skills__group">
+                                  <div class="skills__data">
+                                      <i class="ri-checkbox-circle-line"></i>
+      
+                                      <div>
+                                          <a href="#html-skills"><h3 class="skills__name">HTML</h3></a>
+                                          <span class="skills__level">Confident possession</span>
+                                      </div>
+                                  </div>
+      
+                                  <div class="skills__data">
+                                      <i class="ri-checkbox-circle-line"></i>
+      
+                                      <div>
+                                          <h3 class="skills__name">CSS</h3>
+                                          <span class="skills__level">Confident possession</span>
+                                      </div>
+                                  </div>
+      
+                                  <div class="skills__data">
+                                      <i class="ri-checkbox-circle-line"></i>
+      
+                                      <div>
+                                          <h3 class="skills__name">JavaScript</h3>
+                                          <span class="skills__level">Advanced proficiency</span>
+                                      </div>
+                                  </div>
+                              </div>
+                              
+                              <div class="skills__group">
+                                  <div class="skills__data">
+                                      <i class="ri-checkbox-circle-line"></i>
+      
+                                      <div>
+                                          <h3 class="skills__name">React</h3>
+                                          <span class="skills__level">Superficial possession</span>
+                                      </div>
+                                  </div>
+      
+                                  <div class="skills__data">
+                                      <i class="ri-checkbox-circle-line"></i>
+      
+                                      <div>
+                                          <h3 class="skills__name">Bootstrap</h3>
+                                          <span class="skills__level">Superficial possession</span>
+                                      </div>
+                                  </div>
+      
+                                  <div class="skills__data">
+                                      <i class="ri-checkbox-circle-line"></i>
+      
+                                      <div>
+                                          <h3 class="skills__name">Git</h3>
+                                          <span class="skills__level">Confident possession</span>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="skills__area">
+                          <h3 class="skills__title">Backend Skills</h3>
+  
+                          <div class="skills__box">
+                              <div class="skills__group">
+                                  <div class="skills__data">
+                                      <i class="ri-close-circle-line"></i>
+      
+                                      <div>
+                                          <h3 class="skills__name">PHP</h3>
+                                          <span class="skills__level">Very superficial possession</span>
+                                      </div>
+                                  </div>
+      
+                                  <div class="skills__data">
+                                      <i class="ri-checkbox-circle-line"></i>
+      
+                                      <div>
+                                          <h3 class="skills__name">PostgreSQL / MySQL</h3>
+                                          <span class="skills__level">A lot of expirience</span>
+                                      </div>
+                                  </div>
+      
+                                  <div class="skills__data">
+                                      <i class="ri-close-circle-line"></i>
+      
+                                      <div>
+                                          <h3 class="skills__name">Firebase</h3>
+                                          <span class="skills__level">Very superficial possession</span>
+                                      </div>
+                                  </div>
+
+                                  <div class="skills__data">
+                                    <i class="ri-close-circle-line"></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">C++ / C</h3>
+                                        <span class="skills__level">Advanced proficiency</span>
+                                    </div>
+                                  </div>
+                              </div>
+                              
+                              <div class="skills__group">
+                                  <div class="skills__data">
+                                      <i class="ri-checkbox-circle-line"></i>
+      
+                                      <div>
+                                          <h3 class="skills__name">Python</h3>
+                                          <span class="skills__level">A lot of projects, confident</span>
+                                      </div>
+                                  </div>
+      
+                                  <div class="skills__data">
+                                      <i class="ri-checkbox-circle-line"></i>
+      
+                                      <div>
+                                          <h3 class="skills__name">Node Js</h3>
+                                          <span class="skills__level">A lot of projects, confident</span>
+                                      </div>
+                                  </div>
+
+                                  <div class="skills__data">
+                                    <i class="ri-close-circle-line"></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">Qt 5.12.12+</h3>
+                                        <span class="skills__level">Advanced proficiency</span>
+                                    </div>
+                                  </div>
+
+                                  <div class="skills__data">
+                                    <i class="ri-close-circle-line"></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">C# / Java / Kotlin</h3>
+                                        <span class="skills__level">Superficial possession</span>
+                                    </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="experience__content grid" data-content id="experience">
+                <div>
+                  <i class="ri-checkbox-circle-line"></i>
+                  UnicornWitnesses - MuteIt App, Dubai (remote) – Back-end / Front-end (lead) developer <br>
+                  December 2021 – current time
+                </div>
+
+                <div>
+                  <i class="ri-checkbox-circle-line"></i>
+                  Korteh - Students Portal, Saint-Petersburg, Moscow (remote) – Back-end / Front-end (lead) developer <br>
+                  Februery 2023 – current time
+                </div>
+
+                <div>
+                  <i class="ri-checkbox-circle-line"></i>
+                  Stalin IVS, Saint-Petersburg (remote) – Back-end, TON integration developer <br>
+                  March 2023 – current time
+                </div>
+              </div>
+            </section>
+        </main>
+
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; 2022-2023
+            </span>
+        </footer>
+
+        <script type="text/javascript" src="https://unpkg.com/scrollreveal"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>
